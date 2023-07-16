@@ -5,7 +5,7 @@
 
 // T is Semiregular or Regular or TotallyOrdered
 template <typename T>
-    requires(std::regular<T> || std::semiregular<T> || std::totally_ordered<T>)
+    requires(std::semiregular<T> || std::regular<T> || std::totally_ordered<T>)
 struct singleton final
 {
     using value_type = T;
