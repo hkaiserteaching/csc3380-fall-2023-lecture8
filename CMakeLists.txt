@@ -10,4 +10,4 @@ add_executable(test_instrumented_unique
 target_compile_definitions(
     test_instrumented_unique PRIVATE 
     CATCH_CONFIG_ENABLE_BENCHMARKING
-    CATCH_CONFIG_RUNNER)    
+    CATCH_CONFIG_RUNNER)
